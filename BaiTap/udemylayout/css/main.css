@@ -1,0 +1,151 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__left .navbar-brand img {
+  max-width: 110px;
+  height: auto;
+}
+
+.header__left .categories {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header__left .header__form {
+  -webkit-box-flex: 6;
+      -ms-flex-positive: 6;
+          flex-grow: 6;
+}
+
+.header__left .header__form input {
+  border: none;
+  background-color: #fff;
+}
+
+.header__left .header__form input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header__left .header__form input::-webkit-input-placeholder {
+  color: lightblue;
+}
+
+.header__left .header__form input:-ms-input-placeholder {
+  color: lightblue;
+}
+
+.header__left .header__form input::-ms-input-placeholder {
+  color: lightblue;
+}
+
+.header__left .header__form input::placeholder {
+  color: lightblue;
+}
+
+.header__left .header__form i {
+  padding: 10px;
+  background-color: #fff;
+  color: #ec5252;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header__left .header__form i:hover {
+  background-color: #ec5252;
+  color: #fff;
+}
+
+.header__left .header__form .input-group {
+  border: 1px solid #eeeeee;
+}
+
+.header__left .header__form .input-group .form-control {
+  border-radius: 0%;
+  background-clip: border-box;
+}
+
+.header__right .btn__login {
+  border: 1px solid gray;
+}
+
+.udemyCarousel {
+  background-image: url("./../img/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.udemyCarousel input {
+  border: none;
+  background-color: #fff;
+}
+
+.udemyCarousel input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.udemyCarousel input::-webkit-input-placeholder {
+  color: lightblue;
+}
+
+.udemyCarousel input:-ms-input-placeholder {
+  color: lightblue;
+}
+
+.udemyCarousel input::-ms-input-placeholder {
+  color: lightblue;
+}
+
+.udemyCarousel input::placeholder {
+  color: lightblue;
+}
+
+.udemyCarousel i {
+  padding: 10px;
+  background-color: #fff;
+  color: #ec5252;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.udemyCarousel i:hover {
+  background-color: #ec5252;
+  color: #fff;
+}
+
+.udemyCarousel .input-group {
+  border: 1px solid #eeeeee;
+}
+
+.udemyCarousel .input-group .form-control {
+  border-radius: 0%;
+  background-clip: border-box;
+}
+/*# sourceMappingURL=main.css.map */

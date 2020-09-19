@@ -1,0 +1,24 @@
+.header__left {
+    display: flex;
+    align-items: center;
+    .navbar-brand{
+        img{
+            max-width: 110px;
+            height: auto;
+        }
+    }
+    .categories{
+        flex-grow: 1;
+    }
+    .header__form{
+        flex-grow: 6;
+    }
+    .header__form{
+        @include search();
+    }
+}
+.header__right{
+    .btn__login{
+        border: 1px solid gray;
+    }
+}

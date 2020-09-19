@@ -1,0 +1,98 @@
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+.header ul li{
+    /* remove cycle */
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    margin: 0px 10px;
+    }
+.header ul li a{
+    /* remove decoration */
+    text-decoration: none;
+    color: white;
+}
+.header ul {
+    background-color: gray;
+    padding: 10px 0px;
+}
+.header img{
+    width: 200px;
+}
+/* carousel */
+.carousel{
+    background-image: url("/images/slider_1.jpg");
+    height: 500px;
+    background-repeat: none;
+    background-size: cover;
+}
+/* intro */
+.intro__left,.intro__right{
+    float: left;
+    width: 50%;
+}
+.intro__small{
+    float: left;
+    width: 50%;
+}
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+.intro__item{
+    /* top,right-left,bottom */
+    padding: 0 10px 15px;
+}
+/* .intro__right{
+    float: left;
+    width: 50%;
+} */
+
+/* .intro__right.intro_item img{
+    width: 100%;
+} */
+/* product */
+.product__item{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.product__item img{
+    width: 100%;
+}
+.product h1{
+    text-align: center;
+}
+/* cach clear 1
+.product__content::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+/* cach clear 2 */
+.clear{
+    clear: both;
+}
+/* banner */
+.banner{
+    background-image: url("/images/nature.jpg");
+    height: 300px;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+}
+.banner__circle{
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(241, 77, 48, 0.575);
+    border-radius: 50%;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+}

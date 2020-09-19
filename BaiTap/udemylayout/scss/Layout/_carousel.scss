@@ -1,0 +1,10 @@
+.udemyCarousel{
+    background-image: url("./../img/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    @include search();
+}

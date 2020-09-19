@@ -1,0 +1,46 @@
+h1 {
+  background-color: red;
+}
+
+.section1 p, .section2 p {
+  background-color: red;
+}
+
+.section1 button, .section2 button {
+  background-color: lightblue;
+  border: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section1 button:hover, .section2 button:hover {
+  background-color: red;
+}
+
+.section2 {
+  color: lightblue;
+  font-size: 20px;
+}
+
+.section3 p {
+  color: blue;
+}
+
+.section3 button {
+  background-color: green;
+}
+
+.section4 h2 {
+  color: lightcoral;
+}
+
+.section4 p {
+  color: lightgreen;
+}
+
+.section5 h2 {
+  color: lightskyblue;
+  font-size: 56px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=main.css.map */

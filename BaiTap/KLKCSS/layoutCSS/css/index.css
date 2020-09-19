@@ -1,0 +1,18 @@
+/* tag name: 1 */
+h1 {
+    background-color: green;
+}
+
+/* class:10 */
+/* 10 */
+.demo1 {
+    color: red;
+}
+
+/* id: 100 */
+#section {}
+
+/* 10 + 10 */
+.demo .demo1 {
+    color: blue;
+}

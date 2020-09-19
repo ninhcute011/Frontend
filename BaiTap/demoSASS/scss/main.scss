@@ -1,0 +1,70 @@
+// Khai báo biến
+$main-color: red;
+h1{
+   background-color: $main-color;
+}
+//Nesting
+//5 cấp 
+.section1{
+    p{
+        background-color: $main-color;
+    }
+    button{
+        background-color: lightblue;
+        border: none;
+        transition: 1s;
+        //parent seclector
+        &:hover{ //& <=> this
+            background-color: $main-color;
+        }
+    }
+}
+//kế thừa
+//@extend
+.section2{
+    @extend .section1;
+    color: lightblue;
+    font-size: 20px;
+}
+
+//placeholder
+
+%styluSection{
+    p{
+        color: blue;
+    }
+    button{
+        background-color: green;
+    }
+}
+.section3{
+    @extend %styluSection;
+}
+
+//Mixin
+//Không có tham số truyền vào
+@mixin styleSection(){
+    h2{
+        color: lightcoral;
+    }
+    p{
+        color: lightgreen;
+    }
+}
+
+
+.section4{
+    @include styleSection()
+}
+
+//có tham số truyền vào
+@mixin styleHeading($color,$fs,$fw) {
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+}
+.section5{
+    h2{
+        @include styleHeading(lightskyblue,56px,500)
+    }
+}

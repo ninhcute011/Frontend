@@ -1,0 +1,19 @@
+/* tagname */
+h1{
+    background-color: lightblue;
+}
+h2{
+    background-color: lightblue;
+}
+/* class */
+.demo1{
+    color: red;
+}
+/* id *=> wu tien nhat */
+#section{
+
+}
+
+.demo .demo1{
+    color: lightblue /*!important =>tang wu tien;  */
+}
